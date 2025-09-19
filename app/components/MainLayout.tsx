@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect } from 'react';
 import styles from '../page.module.css';
 import renataImage from '../../public/assets/imagens/renata1.png';
 
@@ -18,6 +19,23 @@ export default function MainLayout({
   backgroundPosition?: string; // Nova prop opcional
 }) {
   const pathname = usePathname();
+  
+  // Scroll automático após carregamento da página
+  useEffect(() => {
+    // Scroll para o topo quando a página carrega
+    window.scrollTo(0, 0);
+    
+    // Após 3 segundos, scroll automático para baixo
+    const timer = setTimeout(() => {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+      });
+    }, 3000);
+
+    // Limpar timer se o componente desmontar
+    return () => clearTimeout(timer);
+  }, [pathname]); // Executa quando a rota muda
   
   const imageVariants = {
     hidden: { opacity: 0 },
@@ -81,6 +99,21 @@ export default function MainLayout({
             </li>
           </ul>
         </nav>
+        {/* Indicador de scroll automático */}
+        <div className={styles.scrollIndicator}>
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ 
+              duration: 2, 
+              repeat: Infinity, 
+              ease: "easeInOut" 
+            }}
+            className={styles.scrollArrow}
+          >
+            ↓
+          </motion.div>
+          <span className={styles.scrollText}>Role para baixo</span>
+        </div>
       </aside>
       {showImage && ( // A imagem só será renderizada se showImage for true
         <motion.div
