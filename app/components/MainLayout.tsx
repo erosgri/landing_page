@@ -150,9 +150,9 @@ export default function MainLayout({
               borderRadius: '12px',
               boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15)',
               backdropFilter: 'blur(10px)',
-              display: 'block !important',
-              visibility: 'visible !important',
-              opacity: '1 !important',
+              display: 'block',
+              visibility: 'visible',
+              opacity: 1,
               animation: 'slideDown 0.2s ease-out'
             }}
           >
