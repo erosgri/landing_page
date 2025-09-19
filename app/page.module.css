@@ -353,7 +353,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     order: 1;
   }
 
@@ -401,31 +401,36 @@
     right: auto;
     width: 100%;
     z-index: 1;
-    margin-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
   }
 
   .nav ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
     padding: 0;
-    flex-wrap: wrap;
+    margin: 0;
   }
 
   .nav a {
     color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 700;
     transition: all 0.3s ease;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-    padding: 0.6rem 1.2rem;
+    padding: 0.8rem 2rem;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 25px;
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    text-align: center;
   }
 
   .nav a:hover {
@@ -440,13 +445,14 @@
 
   .mobileHeaderText {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: white;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     z-index: 1;
+    margin-top: 2rem;
   }
 
   .mobileMenu {
