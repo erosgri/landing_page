@@ -283,6 +283,19 @@
   }
 }
 
+/* Ocultar seta de scroll na versão web */
+.scrollIndicator {
+  display: none;
+}
+
+.scrollArrow {
+  display: none;
+}
+
+.scrollText {
+  display: none;
+}
+
 .menuButton {
   display: none;
   position: absolute;
