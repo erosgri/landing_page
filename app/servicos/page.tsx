@@ -15,6 +15,7 @@ export default function ServicosPage() {
             como:
           </p>
           <ul>
+            <li>Consulta cosmética</li>
             <li>Aplicação de toxina botulínica (Botox)</li>
             <li>Preenchimentos faciais</li>
             <li>Fios de PDO e de sustentação</li>
