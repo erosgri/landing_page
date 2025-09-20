@@ -13,11 +13,10 @@ export default function SobreMimPage() {
         <div className={styles.textContent}>
           <p>
             Sou biomédica e técnica em estética, com mais de 30 anos de
-            experiência na área da beleza e saúde estética. Realizei residência
-            em harmonização facial, complementando minha formação com
-            especialização avançada em procedimentos estéticos. Atuei como docente
+            experiência na área da beleza e saúde estética. Atuei como docente
             no SENAC Santo Amaro, compartilhando conhecimento e formando
-            profissionais.
+            profissionais. Fiz residência em harmonização facial, complementando
+            minha formação com especialização avançada em procedimentos estéticos.
           </p>
           <p>
             Minha trajetória é marcada pelo auxílio em processos de recuperação
