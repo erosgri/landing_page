@@ -25,13 +25,13 @@ export default function MainLayout({
     // Scroll para o topo quando a página carrega
     window.scrollTo(0, 0);
     
-    // Após 3 segundos, scroll automático para baixo
+    // Após 2 segundos, scroll automático para baixo
     const timer = setTimeout(() => {
       window.scrollTo({
         top: window.innerHeight,
         behavior: 'smooth'
       });
-    }, 3000);
+    }, 2000);
 
     // Limpar timer se o componente desmontar
     return () => clearTimeout(timer);
