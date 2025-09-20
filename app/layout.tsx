@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Dr. Renata Cristina',
+  title: 'Dra. Renata Cristina',
   description: 'Biomédica especializada em procedimentos estéticos',
 };
 

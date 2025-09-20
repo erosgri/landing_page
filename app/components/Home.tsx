@@ -8,7 +8,7 @@ export default function Home() {
     >
       <div className={styles.heroContent}>
         <h1>Bem Vindo</h1>
-        <h2>Dra.Renata Cristina</h2>
+        <h2>Dra. Renata Cristina</h2>
         <p className={styles.subtitle}>
           especializada em procedimentos estéticos
         </p>
