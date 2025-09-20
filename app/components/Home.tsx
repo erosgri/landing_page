@@ -10,7 +10,7 @@ export default function Home() {
         <h1>Bem Vindo</h1>
         <h2>Dra. Renata Cristina</h2>
         <p className={styles.subtitle}>
-          especializada em procedimentos estéticos
+          Especializada em procedimentos faciais e cosmetologia
         </p>
       </div>
     </MainLayout>
