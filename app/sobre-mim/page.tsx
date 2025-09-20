@@ -15,7 +15,7 @@ export default function SobreMimPage() {
             Sou biomédica e técnica em estética, com mais de 30 anos de
             experiência na área da beleza e saúde estética. Atuei como docente
             no SENAC Santo Amaro, compartilhando conhecimento e formando
-            profissionais. Fiz residência em harmonização facial na CTA, complementando
+            profissionais. Fiz residência em harmonização facial na faculdade CTA, complementando
             minha formação com especialização avançada em procedimentos estéticos.
           </p>
           <p>
