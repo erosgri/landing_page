@@ -9,7 +9,7 @@ export default function Home() {
       <div className={styles.heroContent}>
         <h1>Bem Vindo</h1>
         <h2>Dra. Renata Cristina</h2>
-        <p className={styles.crbText}>CRB 75241</p>
+        <p className={styles.crbText}>CRBM 75241</p>
         <p className={styles.subtitle}>
           Especializada em procedimentos faciais e cosmetologia
         </p>
